@@ -2,6 +2,7 @@
 .container-fluid {
     margin: 2%;
     border: solid;
+    background-color: #d23c96;
 }
 
 .text-left {
@@ -27,26 +28,14 @@
 .danger {
     background-color: #fff133;
     font-size: 50px;
-
-    /*    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
-        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
-        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.9) 75%);*/
     color: black;
     height: 100%;
     width: 100%;
-    -webkit-animation: move_danger 6s linear 0s infinite ;
-    /*    -moz-animation: 4s linear 0s infinite alternate move_danger; */
-    /*    -o-animation: 4s linear 0s infinite alternate move_danger;
-        animation: 4s linear 0s infinite alternate move_danger; */
     animation: move_danger 6s infinite;
 
 }
 
 @-webkit-keyframes move_danger { from { margin-left:-20%; } to { margin-left:100%; }  }
-/*@-moz-keyframes move_danger { from { margin-left:-20%; } to { margin-left:100%; }  }
-@-o-keyframes move_danger { from { margin-left:-20%; } to { margin-left:100%; }  }
-@keyframes move_danger { from { margin-left:-20%; } to { margin-left:100%; }  } */
 
 #idea {
     justify-content: center;

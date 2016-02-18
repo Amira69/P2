@@ -1,7 +1,7 @@
 # Amir Tabrizi - DWA15
 
 # Live ULR
-[Welcome](http://p2.amiratabrizi.com)
+[PHP intro](http://p2.amiratabrizi.com)
 
 ## Description
 > I used few techniques of HTML,CSS,and PHP in my page to highlight required skills I gained in lecture 3 to use Server
