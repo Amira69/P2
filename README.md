@@ -8,7 +8,8 @@
 superglobal _POST and _GET in addition to built in functions of php.net
 
 ## Demo
-N/A
+[P2 Demo](https://youtu.be/6kTNgz2IpTM)
+
 ## Details for teaching team
 
 Input required

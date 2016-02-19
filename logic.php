@@ -39,13 +39,15 @@ if (!empty($_POST)) {
         shuffle($password_array);
     }
 
+// CamelCase applied
+    if (isset($_POST['camel_yes'])) {
+        $password = implode(" ",$password_array);
+        $CCpassword = ucwords($password);
+        $password_array = explode(" ",$CCpassword);
+    }
+
 // trim and dash
     $CCpassword = implode("-", $password_array);
     $password = trim($CCpassword);
 
-// CamelCase applied
-    if (isset($_POST['camel_yes'])) {
-        $CCpassword = ucwords($password);
-        $password = $CCpassword;
-    }
 }

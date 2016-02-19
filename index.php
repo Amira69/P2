@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <link rel="shortcut icon" type="image/x-icon" href="../P1/images/ext_web.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/ext_web.png">
 
     <title>P2 - DWA Spring 2016</title>
  <!--my files-->
@@ -42,11 +42,11 @@
                 <legend>Options</legend>
                 <form action="index.php" method="POST">
                     <label for="maxwords">Number of Words:</label>
-                    <input type="number" min="1" max="9" name="maxwords" id="maxwords" value="1"><br>
-                    <label><input type="checkbox" name="number_yes" id="number_yes"> Add Number </label><br>
-                    <label><input type="checkbox" name="symbol_yes" id="symbol_yes"> Add Symbol </label><br>
-                    <label><input type="checkbox" name="vocab_yes" id="vocab_yes"> Change Vocabulary </label><br>
-                    <label><input type="checkbox" name="camel_yes" id="camel_yes"> Camel Case </label><br><br>
+                    <input type="number" min="1" max="9" name="maxwords" id="maxwords" value="4"><br>
+                    <label><input type="checkbox" name="number_yes" id="number_yes" > Add Number </label><br>
+                    <label><input type="checkbox" name="symbol_yes" id="symbol_yes" > Add Symbol </label><br>
+                    <label><input type="checkbox" name="vocab_yes" id="vocab_yes" checked> Change Vocabulary </label><br>
+                    <label><input type="checkbox" name="camel_yes" id="camel_yes" > Camel Case </label><br><br>
                     <input class="btn btn-default" type="submit" value="Generate Password"><br><br>
                 </form>
             </fieldset>
